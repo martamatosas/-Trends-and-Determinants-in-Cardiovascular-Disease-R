@@ -1,13 +1,7 @@
 #  Trends and Determinants in Cardiovascular Disease | R
-The project aims to identify the specific demographic and physiological indicators that are associated with the outcome of mortality
-from cardiovascular disease and what is the strength of those associations among a globally representative sample taken between 1985
-and 1993.
-
-The dataset corresponds to the data collected within the scope of Multinational Monitoring of Trends and Determinants in 
-Cardiovascular Disease (MONICA) study.
-
-I am personally responsible for approx. 83% of the code and 90% of the summary conclusions of the report.
-
-Total number of project team members: 5
-
-The programming language used is R.
+BRIEF DESCRIPTION: Analyzed WHO MONICA (Multinational Monitoring of Trends and Determinants in Cardiovascular Disease) dataset to find demographic and physiological indicators associated with the outcome of mortality from cardiovascular disease.
+Performed univariate and multivariate analysis using chi-square test to find the strategically significant variables and plotted graphs to visualize the output that was generated.
+Performed logistic regression to find the strength of the association between the predictor factors such as high cholesterol, smoking status, high blood pressure and previous myocardial infraction to predict the outcome (dead or live).
+Performed logistic regression, decision tree, random forest and KNN to predict the two possible outcomes: dead and live.
+TOP FINDINGS: Hospitalization status was the strongest predictor of cardiovascular mortality for both sexes. KNN method outperforms the multivariable logistic regression model, which produced McFadden R2 values in the moderate range of 55-65%. KNN produced the most accurate predictions of the outcome live for women (96.1%) and men (99.9%). The random forest classifier produced the most accurate predictions of the outcome dead for women (78.6%), while decision trees produced the most accurate predictions of the outcome dead for men (77%).
+The Decision Tree method produced the most accurate predictions of the outcome dead for men (77%), whereas Random Forest produced the most accurate predictions of the outcome dead for women (78.6%).
