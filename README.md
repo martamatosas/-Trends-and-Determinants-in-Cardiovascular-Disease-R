@@ -18,4 +18,4 @@ KNN produced the most accurate predictions of the outcome live for women (96.1%)
 The random forest classifier produced the most accurate predictions of the outcome dead for women (78.6%), while decision trees produced the most accurate predictions of the outcome dead for men (77%).
 
 
-Project elaborated with Anwesha Tomar, Steven Towers, Sandra Valdes Salas.
+Project elaborated with Lucas Belury, Anwesha Tomar, Steven Towers and Sandra Valdes Salas.
